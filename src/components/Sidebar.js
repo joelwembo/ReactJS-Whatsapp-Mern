@@ -18,11 +18,9 @@ import SidebarChat from "./SidebarChat";
                 <IconButton>
                     <DonutLargeIcon />
                 </IconButton>
-
                 <IconButton>
                     <ChatIcon />
                 </IconButton>
-
                 <IconButton>
                     <MoreVertIcon />
                 </IconButton>
@@ -37,7 +35,7 @@ import SidebarChat from "./SidebarChat";
             </div>
         </div>
 
-        <div className = "sidebar_chats">
+        <div className = "sidebar__chats">
             <SidebarChat />
             <SidebarChat />
             <SidebarChat />
