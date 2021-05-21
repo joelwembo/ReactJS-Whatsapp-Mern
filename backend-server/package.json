@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "The Backend Application for our react JS(Whatsapp apps), the backend will consitst of Express, Socket io, web socket and Mongodb",
   "main": "app.js",
-  "type" : "module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
@@ -17,6 +17,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.12.10",
+    "pusher": "^5.0.0",
     "socketio": "^1.0.0"
   }
 }

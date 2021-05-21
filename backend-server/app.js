@@ -32,6 +32,20 @@ app.get('/messages/sync', (req, res) => {
   })
 })
 
+const Pusher = require("pusher");
+
+const pusher = new Pusher({
+  appId: "1207725",
+  key: "d0ce06d1a5b732d08644",
+  secret: "ba5778d9f722b60aa7b7",
+  cluster: "ap1",
+  useTLS: true
+});
+
+pusher.trigger("my-channel", "my-event", {
+  message: "hello world"
+});
+
 
 
 app.post('/api/v1/messages/new', (req, res) => {
