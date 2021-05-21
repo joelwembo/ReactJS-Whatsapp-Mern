@@ -1,20 +1,19 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import Sidebar from "./components/Sidebar";
 import Chat from "./components/Chat";
 import './App.css';
 
-
 function App() {
   return (
-    <div className="App">
-      <h1>Whatsapp V2</h1>
-    
-    {/* Sidebar Component*/}
-    <Sidebar />
-     {/* Chat Component*/}
-    <Chat /> 
+    <div className="App">     
+      <div className = "app__body">
+        {/* Sidebar Component*/}
+        <Sidebar />
+        {/* Chat Component*/}
+        <Chat /> 
+      </div>  
     </div>
   );
 }
-
 export default App;

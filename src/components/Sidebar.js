@@ -4,9 +4,8 @@ import './Sidebar.css';
 function Sidebar() {
     return (
       <div className="sidebar">
-        <h1>SIdeBar</h1>
-      
-     
+        <h1>I am the sidebar</h1>
+          
       </div>
     );
   }
