@@ -14,7 +14,7 @@ function Chat() {
           <Avatar src="https://i.pravatar.cc/150?u=a042581f4e29026704d" />
 
             <div className="chat__headerInfo">
-                <h3>Room Name</h3>
+                <h3>Lynda Cool Business</h3>
                 <p>Last Seen at....</p>
             </div>
             <div className="chat__headerRight">
@@ -32,12 +32,50 @@ function Chat() {
             </div>
           </div> 
           <div className="chat__body">
-              <p className="chat__message">
+                <p className="chat__message">
                   <span className ="chat__name">Johhny Mka</span>
-                  This is a message from joe , we were looking for you the all day, we depivng tint sokething very speciafifhd</p>
+                  This is a message from joe , we were looking for you the all day, we depivng tint sokething very speciafifhd
                   <span className="chat__timestamp">
                     {new Date().toLocaleString() + ''}
                   </span>
+
+                </p>
+
+                <p className="chat__message chat__receiver">
+                  <span className ="chat__name">Cooling Business</span>
+                  This is ahe all day, we depivng tint sokething very speciafifhd
+                  <span className="chat__timestamp">
+                    {new Date().toLocaleString() + ''}
+                  </span>
+
+                </p>
+
+                <p className="chat__message">
+                  <span className ="chat__name">Johhny Mka</span>
+                  This is a message from joe , we were looking for you the all day, we depivng tint sokething very speciafifhd
+                  <span className="chat__timestamp">
+                    {new Date().toLocaleString() + ''}
+                  </span>
+
+                </p>  
+
+                <p className="chat__message chat__receiver">
+                  <span className ="chat__name">Cooling Business</span>
+                  This is ahe all day, we depivng tint sokething very speciafifhd
+                  <span className="chat__timestamp">
+                    {new Date().toLocaleString() + ''}
+                  </span>
+
+                </p>
+                <p className="chat__message chat__receiver">
+                  <span className ="chat__name">Cooling Business</span>
+                  very speciafifhd :) Okay
+                  <span className="chat__timestamp">
+                    {new Date().toLocaleString() + ''}
+                  </span>
+
+                </p>
+
           </div> 
       </div>
     );
