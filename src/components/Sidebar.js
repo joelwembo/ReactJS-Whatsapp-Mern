@@ -39,6 +39,11 @@ import SidebarChat from "./SidebarChat";
             <SidebarChat />
             <SidebarChat />
             <SidebarChat />
+            <SidebarChat />
+            <SidebarChat />
+
+
+
         </div>
 
 
