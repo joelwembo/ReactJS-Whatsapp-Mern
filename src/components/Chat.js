@@ -19,11 +19,26 @@ function Chat() {
             </div>
             <div className="chat__headerRight">
                 <IconButton>
-                    
+                    <SearchOutlined />
+                </IconButton>
+
+                <IconButton>
+                    <AttachFileIcon / >
+                </IconButton>
+
+                <IconButton>
+                    <MoreVertIcon />
                 </IconButton>
             </div>
-
-          </div>  
+          </div> 
+          <div className="chat__body">
+              <p className="chat__message">
+                  <span className ="chat__name">Johhny Mka</span>
+                  This is a message from joe , we were looking for you the all day, we depivng tint sokething very speciafifhd</p>
+                  <span className="chat__timestamp">
+                    {new Date().toLocaleString() + ''}
+                  </span>
+          </div> 
       </div>
     );
   }
