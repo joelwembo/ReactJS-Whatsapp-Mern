@@ -1,0 +1,14 @@
+{
+  "name": "whatsapp-backend",
+  "version": "2.0.0",
+  "description": "The Backend Application for our react JS(Whatsapp apps), the backend will consitst of Express, Socket io, web socket and Mongodb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp-backend"
+  ],
+  "author": "joel otepa wembo",
+  "license": "ISC"
+}
